@@ -9,9 +9,9 @@
 
 | 이름 | GitHub | 역할 | 담당 유틸 함수 | 소개 |
 | --- | --- | --- | --- | --- |
-| <name1> | [@id1](https://github.com/id1) | <역할> | `src/utils/<file>.py` | [team/<name1>.md](team/<name1>.md) |
-| <name2> | [@id2](https://github.com/id2) | <역할> | `src/utils/<file>.py` | [team/<name2>.md](team/<name2>.md) |
-| <name3> | [@id3](https://github.com/id3) | <역할> | `src/utils/<file>.py` | [team/<name3>.md](team/<name3>.md) |
+| 유현 | [@hauteville1862](https://github.com/hauteville1862) | <역할> | `src/utils/<file>.py` | [team/<name1>.md](team/<name1>.md) |
+| 나현 | [@Rara-rookie](https://github.com/Rara-rookie) | <역할> | `src/utils/<file>.py` | [team/<name2>.md](team/<name2>.md) |
+| 경내 | [@datecoco](https://github.com/datecoco) | <역할> | `src/utils/<file>.py` | [team/<name3>.md](team/<name3>.md) |
 
 ## 폴더 구조
 
