@@ -16,5 +16,11 @@ def truncate(text: str, limit: int) -> str:
 
     >>> truncate("collaboration", 5)
     'colla…'
+    >>> truncate("abc", 0)
+    Traceback (most recent call last):
+    ...
+    ValueError: limit must be 1 or greater
     """
+    if limit < 1:
+        raise ValueError("limit must be 1 or greater")
     return text if len(text) <= limit else text[:limit] + "…"
