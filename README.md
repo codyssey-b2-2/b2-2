@@ -73,7 +73,7 @@ git push -u origin feature/<name>-<topic>
 | --- | --- | --- | --- |
 | `src/utils/<file>.py` | `<function>()` | <name1> | <설명> |
 | `src/utils/<file>.py` | `<function>()` | <name2> | <설명> |
-| `src/utils/<file>.py` | `<function>()` | <name3> | <설명> |
+| `src/utils/string_utils.py` | `slugify()` | 경내 | 문자열을 URL용 슬러그로 변환 |
 
 사용 예시:
 
