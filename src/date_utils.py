@@ -7,8 +7,10 @@ def days_between(start: str, end: str) -> int:
 
     >>> days_between("2026-09-01", "2026-09-15")
     14
+    >>> days_between("2026-09-15", "2026-09-01")
+    14
     """
-    return (date.fromisoformat(end) - date.fromisoformat(start)).days
+    return abs((date.fromisoformat(end) - date.fromisoformat(start)).days)
 
 
 def is_weekend(day: str) -> bool:
