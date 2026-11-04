@@ -15,5 +15,11 @@ def mean(values: list[float]) -> float:
 
     >>> mean([1, 2, 3, 4])
     2.5
+    >>> mean([])
+    Traceback (most recent call last):
+    ...
+    ValueError: mean() requires at least one value
     """
+    if not values:
+        raise ValueError("mean() requires at least one value")
     return sum(values) / len(values)
